@@ -1,0 +1,6 @@
+# Example .nixpacks.yml
+env:
+  - PYTHON_VERSION=3.8
+build:
+  - backend: pip install -r requirements.txt
+  - frontend: npm install
